@@ -7,7 +7,11 @@ import random #for random choice in dict
 import logging
 #logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 from scapy.all import *
+import sys
 
+if(sys.version_info[0] !=3) :
+	print("Erreur, ce script a besoin de python3.X")
+	sys.exit()
 
 #define vars an lock
 global global_ports_opened
