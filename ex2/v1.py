@@ -3,7 +3,7 @@ logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 from scapy.all import *
 
 
-dst_ip = "192.168.1.64"
+dst_ip = "216.58.198.195"
 src_port = 45855
 dst_port=80
  
